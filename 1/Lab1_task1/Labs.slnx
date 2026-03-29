@@ -7,5 +7,9 @@
   <Project Path="../../2/Lab2/Lab2_task2/Lab2_task2/Lab2_task2.vcxproj" Id="39feb871-ebc0-46f2-9a32-7a7979a0f925" />
   <Project Path="../../2/Lab2/Lab2_task3/Lab2_task3/Lab2_task3.vcxproj" Id="5d23777d-22af-4cf3-8219-0aea95f26c83" />
   <Project Path="../../2/Lab2/Lab2_task4/Lab2_task4/Lab2_task4.vcxproj" Id="d9b6bd47-9a19-4848-b544-b2c897da05d6" />
+  <Project Path="../../3/Lab3_task1/Lab3_task1/Lab3_task1.vcxproj" Id="6b17cd71-4d14-4338-846d-a4bbb02b1b3b" />
+  <Project Path="../../3/Lab3_task2/Lab3_task2/Lab3_task2.vcxproj" Id="b54b235d-f859-4813-8e6b-d8a0703e37e3" />
+  <Project Path="../../3/Lab3_task3/Lab3_task3/Lab3_task3.vcxproj" Id="599ff26d-e18f-441e-8c54-bb060ba1e7db" />
+  <Project Path="../../3/Lab3_task4/Lab3_task4/Lab3_task4.vcxproj" Id="08225eef-701e-4962-a951-eb2de2ce0291" />
   <Project Path="Lab1_task1/Lab1_task1.vcxproj" Id="ad5ef6ff-2a37-4468-a3be-a450995fdf8b" />
 </Solution>

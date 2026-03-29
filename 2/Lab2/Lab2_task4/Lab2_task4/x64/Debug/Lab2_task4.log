@@ -1,3 +1,1 @@
-﻿  Lab2_task4.cpp
-D:\ITMO\С++\projects\Labs\2\Lab2\Lab2_task4\Lab2_task4\Lab2_task4.cpp(9,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Lab2_task4.vcxproj -> D:\ITMO\С++\projects\Labs\1\Lab1_task1\x64\Debug\Lab2_task4.exe
+﻿  Lab2_task4.vcxproj -> D:\ITMO\С++\projects\Labs\1\Lab1_task1\x64\Debug\Lab2_task4.exe
