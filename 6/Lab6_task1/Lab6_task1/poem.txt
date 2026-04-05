@@ -1,0 +1,4 @@
+Roses are red
+Violets are blue
+C++ is hard
+But I'll get through
