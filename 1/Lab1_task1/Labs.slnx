@@ -3,23 +3,26 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="../../2/Lab2/Lab2_task1/Lab2_task1.vcxproj" Id="79bd1139-0950-4f8d-abfd-8552c73a0a80" />
-  <Project Path="../../2/Lab2/Lab2_task2/Lab2_task2/Lab2_task2.vcxproj" Id="39feb871-ebc0-46f2-9a32-7a7979a0f925" />
-  <Project Path="../../2/Lab2/Lab2_task3/Lab2_task3/Lab2_task3.vcxproj" Id="5d23777d-22af-4cf3-8219-0aea95f26c83" />
-  <Project Path="../../2/Lab2/Lab2_task4/Lab2_task4/Lab2_task4.vcxproj" Id="d9b6bd47-9a19-4848-b544-b2c897da05d6" />
-  <Project Path="../../3/Lab3_task1/Lab3_task1/Lab3_task1.vcxproj" Id="6b17cd71-4d14-4338-846d-a4bbb02b1b3b" />
-  <Project Path="../../3/Lab3_task2/Lab3_task2/Lab3_task2.vcxproj" Id="b54b235d-f859-4813-8e6b-d8a0703e37e3" />
-  <Project Path="../../3/Lab3_task3/Lab3_task3/Lab3_task3.vcxproj" Id="599ff26d-e18f-441e-8c54-bb060ba1e7db" />
-  <Project Path="../../3/Lab3_task4/Lab3_task4/Lab3_task4.vcxproj" Id="08225eef-701e-4962-a951-eb2de2ce0291" />
-  <Project Path="../../3/Lab3_task5/Lab3_task5/Lab3_task5.vcxproj" Id="9805a43e-c73f-4093-910e-1106a07daa4e" />
-  <Project Path="../../4/Lab4_task1/Lab4_task1/Lab4_task1.vcxproj" Id="fc0ee348-6ac7-4f62-9ea8-503c517a285a" />
-  <Project Path="../../4/Lab4_task2/Lab4_task2/Lab4_task2.vcxproj" Id="7c4c9d2d-d9b4-4dd3-ad03-6ffbb08085e3" />
-  <Project Path="../../5/Lab5_task1/Lab5_task1/Lab5_task1.vcxproj" Id="b89e2a64-167a-4978-9140-5dc08577b299" />
-  <Project Path="../../5/Lab5_task2/Lab5_task2/Lab5_task2.vcxproj" Id="19abe7b3-7e17-420f-9769-f30d9953adce" />
-  <Project Path="../../5/Lab5_task3/Lab5_task3/Lab5_task3.vcxproj" Id="897c3524-5c5a-4762-918e-0cfbb5bad0ea" />
-  <Project Path="../../5/Lab5_task4/Lab5_task4/Lab5_task4.vcxproj" Id="b51f5e04-ec2d-4701-9d4a-cd4718d19fa1" />
-  <Project Path="../../6/Lab6_task1/Lab6_task1/Lab6_task1.vcxproj" Id="9e2bc36e-541d-4e5c-98ef-5cd351ab84fb" />
-  <Project Path="../../6/Lab6_task2/Lab6_task2/Lab6_task2.vcxproj" Id="bb6dff67-92ed-4f85-88fe-6be986782f78" />
-  <Project Path="../../7/Lab7_task1/Lab7_task1/Lab7_task1.vcxproj" Id="ee98e779-3ef5-4696-8395-4fc5c5fd4dc3" />
-  <Project Path="Lab1_task1/Lab1_task1.vcxproj" Id="ad5ef6ff-2a37-4468-a3be-a450995fdf8b" />
+  <Project Path="D:/ITMO/С++/projects/Labs/1/Lab1_task1/Lab1_task1/Lab1_task1.vcxproj" Id="ad5ef6ff-2a37-4468-a3be-a450995fdf8b" />
+  <Project Path="D:/ITMO/С++/projects/Labs/2/Lab2/Lab2_task1/Lab2_task1.vcxproj" Id="79bd1139-0950-4f8d-abfd-8552c73a0a80" />
+  <Project Path="D:/ITMO/С++/projects/Labs/2/Lab2/Lab2_task2/Lab2_task2/Lab2_task2.vcxproj" Id="39feb871-ebc0-46f2-9a32-7a7979a0f925" />
+  <Project Path="D:/ITMO/С++/projects/Labs/2/Lab2/Lab2_task3/Lab2_task3/Lab2_task3.vcxproj" Id="5d23777d-22af-4cf3-8219-0aea95f26c83" />
+  <Project Path="D:/ITMO/С++/projects/Labs/2/Lab2/Lab2_task4/Lab2_task4/Lab2_task4.vcxproj" Id="d9b6bd47-9a19-4848-b544-b2c897da05d6" />
+  <Project Path="D:/ITMO/С++/projects/Labs/3/Lab3_task1/Lab3_task1/Lab3_task1.vcxproj" Id="6b17cd71-4d14-4338-846d-a4bbb02b1b3b" />
+  <Project Path="D:/ITMO/С++/projects/Labs/3/Lab3_task2/Lab3_task2/Lab3_task2.vcxproj" Id="b54b235d-f859-4813-8e6b-d8a0703e37e3" />
+  <Project Path="D:/ITMO/С++/projects/Labs/3/Lab3_task3/Lab3_task3/Lab3_task3.vcxproj" Id="599ff26d-e18f-441e-8c54-bb060ba1e7db" />
+  <Project Path="D:/ITMO/С++/projects/Labs/3/Lab3_task4/Lab3_task4/Lab3_task4.vcxproj" Id="08225eef-701e-4962-a951-eb2de2ce0291" />
+  <Project Path="D:/ITMO/С++/projects/Labs/3/Lab3_task5/Lab3_task5/Lab3_task5.vcxproj" Id="9805a43e-c73f-4093-910e-1106a07daa4e" />
+  <Project Path="D:/ITMO/С++/projects/Labs/4/Lab4_task1/Lab4_task1/Lab4_task1.vcxproj" Id="fc0ee348-6ac7-4f62-9ea8-503c517a285a" />
+  <Project Path="D:/ITMO/С++/projects/Labs/4/Lab4_task2/Lab4_task2/Lab4_task2.vcxproj" Id="7c4c9d2d-d9b4-4dd3-ad03-6ffbb08085e3" />
+  <Project Path="D:/ITMO/С++/projects/Labs/5/Lab5_task1/Lab5_task1/Lab5_task1.vcxproj" Id="b89e2a64-167a-4978-9140-5dc08577b299" />
+  <Project Path="D:/ITMO/С++/projects/Labs/5/Lab5_task2/Lab5_task2/Lab5_task2.vcxproj" Id="19abe7b3-7e17-420f-9769-f30d9953adce" />
+  <Project Path="D:/ITMO/С++/projects/Labs/5/Lab5_task3/Lab5_task3/Lab5_task3.vcxproj" Id="897c3524-5c5a-4762-918e-0cfbb5bad0ea" />
+  <Project Path="D:/ITMO/С++/projects/Labs/5/Lab5_task4/Lab5_task4/Lab5_task4.vcxproj" Id="b51f5e04-ec2d-4701-9d4a-cd4718d19fa1" />
+  <Project Path="D:/ITMO/С++/projects/Labs/6/Lab6_task1/Lab6_task1/Lab6_task1.vcxproj" Id="9e2bc36e-541d-4e5c-98ef-5cd351ab84fb" />
+  <Project Path="D:/ITMO/С++/projects/Labs/6/Lab6_task2/Lab6_task2/Lab6_task2.vcxproj" Id="bb6dff67-92ed-4f85-88fe-6be986782f78" />
+  <Project Path="D:/ITMO/С++/projects/Labs/7/Lab7_task1/Lab7_task1/Lab7_task1.vcxproj" Id="ee98e779-3ef5-4696-8395-4fc5c5fd4dc3" />
+  <Project Path="D:/ITMO/С++/projects/Labs/7/Lab7_task2/Lab7_task2/Lab7_task2.vcxproj" Id="68f040a3-09d1-46f1-9131-d7692ec42a0b" />
+  <Project Path="D:/ITMO/С++/projects/Labs/7/Lab7_task3/Lab7_task3/Lab7_task3.vcxproj" Id="edece7dd-84b5-4559-9140-e05eef045a63" />
+  <Project Path="D:/ITMO/С++/projects/Labs/8/Lab8_task1/Lab8_task1/Lab8_task1.vcxproj" Id="b349fccb-bcbd-47ba-a20b-844277a45269" />
 </Solution>

@@ -1,20 +1,60 @@
-﻿// Lab7_task2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+﻿#include <iostream>
+#include <cmath>
+using namespace std;
 
-#include <iostream>
+struct Roots
+{
+    double x1;
+    double x2;
+};
+
+
+Roots solveQuadratic(double a, double b, double c)
+{
+    Roots r;
+
+    double D = b * b - 4 * a * c;
+
+    if (D < 0)
+    {
+        r.x1 = r.x2 = 0; 
+    }
+    else if (D == 0)
+    {
+        r.x1 = r.x2 = -b / (2 * a);
+    }
+    else
+    {
+        r.x1 = (-b + sqrt(D)) / (2 * a);
+        r.x2 = (-b - sqrt(D)) / (2 * a);
+    }
+
+    return r;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    double a, b, c;
+
+    cout << "Enter a b c: ";
+    cin >> a >> b >> c;
+
+    Roots res = solveQuadratic(a, b, c);
+
+    double D = b * b - 4 * a * c;
+
+    if (D < 0)
+    {
+        cout << "No real roots\n";
+    }
+    else if (D == 0)
+    {
+        cout << "One root: x = " << res.x1 << endl;
+    }
+    else
+    {
+        cout << "x1 = " << res.x1 << ", x2 = " << res.x2 << endl;
+    }
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

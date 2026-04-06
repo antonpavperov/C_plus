@@ -34,7 +34,7 @@ struct Time
         int total1 = toSeconds();
         int total2 = t.toSeconds();
 
-        int diff = total1 - total2;
+        int diff = abs(total1 - total2);
 
         if (diff < 0) diff = 0; 
 

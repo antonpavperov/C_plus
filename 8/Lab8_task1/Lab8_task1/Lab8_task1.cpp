@@ -1,20 +1,63 @@
-﻿// Lab8_task1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+﻿#include <iostream>
+using namespace std;
 
-#include <iostream>
-
-int main()
+class Time
 {
-    std::cout << "Hello World!\n";
-}
+private:
+    int hours;
+    int minutes;
+    int seconds;
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+    
+    void normalize()
+    {
+        if (seconds >= 60)
+        {
+            minutes += seconds / 60;
+            seconds %= 60;
+        }
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+        if (minutes >= 60)
+        {
+            hours += minutes / 60;
+            minutes %= 60;
+        }
+
+        if (hours >= 24)
+        {
+            hours %= 24;
+        }
+    }
+
+public:
+    
+    Time() : hours(0), minutes(0), seconds(0) {}
+
+    
+    Time(int h, int m, int s) : hours(h), minutes(m), seconds(s)
+    {
+        normalize();
+    }
+
+    
+    void print() const
+    {
+        cout << (hours < 10 ? "0" : "") << hours << ":"
+            << (minutes < 10 ? "0" : "") << minutes << ":"
+            << (seconds < 10 ? "0" : "") << seconds << endl;
+    }
+
+    
+    Time add(const Time& t) const
+    {
+        Time res;
+
+        res.hours = hours + t.hours;
+        res.minutes = minutes + t.minutes;
+        res.seconds = seconds + t.seconds;
+
+        res.normalize();
+
+        return res;
+    }
+};
